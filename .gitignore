@@ -4,3 +4,4 @@ secrets.yml
 *.tmp
 ansible.cfg
 inventory/
+inventory*
