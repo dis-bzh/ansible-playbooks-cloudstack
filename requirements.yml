@@ -1,0 +1,10 @@
+collections:
+  - name: devsec.hardening
+
+roles:
+  - src: git@gitlab.com:denv-r1/ansible/ansible-mariadb-galera-cluster.git
+    scm: git
+    name: ansible-mariadb-galera-cluster
+  - src: git@gitlab.com:denv-r1/ansible/ansible-role-fail2ban.git
+    scm: git
+    name: ansible-role-fail2ban

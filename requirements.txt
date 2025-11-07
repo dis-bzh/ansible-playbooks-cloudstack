@@ -1,4 +1,0 @@
-devsec.hardening.os_hardening
-devsec.hardening.ssh_hardening
-ansible-mariadb-galera-cluster
-ansible-role-service-cloudstack
