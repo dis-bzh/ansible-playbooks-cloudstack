@@ -3,14 +3,12 @@
   roles:
     - name: devsec.hardening.os_hardening
     - name: devsec.hardening.ssh_hardening
-  # vars:
-  #   os_chmod_rootuser_home_folder: false  
+    - name: ansible-role-fail2ban
 
-- hosts: cloudstack_mgmt
+- hosts: mariadb_cluster
   become: true
   roles:
     - name: ansible-mariadb-galera-cluster
-    # - name: devsec.hardening.mysql_hardening
 
 - hosts: all
   become: true
