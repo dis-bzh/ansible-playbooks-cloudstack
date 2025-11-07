@@ -1,7 +1,4 @@
-values.yml
-secrets.yml
 *.log
 *.tmp
 ansible.cfg
-inventory/
-inventory*
+inventories/
