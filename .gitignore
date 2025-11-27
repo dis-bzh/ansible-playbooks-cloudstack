@@ -2,3 +2,7 @@
 *.tmp
 ansible.cfg
 inventories/
+values.yml
+secrets.yml
+inventory/
+inventory*
